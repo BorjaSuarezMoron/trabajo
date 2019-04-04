@@ -1,0 +1,9 @@
+def maximo():
+    num1=int(input("Escriba su primer numero"))
+    num2=int(input("Escriba su segundo numero"))
+    num3=int(input("Escriba su tercer numero"))
+    numeros= [num1,num2,num3]
+    resultado= max(numeros)
+    print resultado
+
+maximo()
